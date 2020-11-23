@@ -1,0 +1,1 @@
+create table DEPATMENTS (q_id int, dname varchar(255),emp_id int);
