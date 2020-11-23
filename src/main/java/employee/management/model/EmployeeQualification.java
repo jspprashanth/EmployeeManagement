@@ -48,7 +48,7 @@ public class EmployeeQualification {
 		this.employee = employee;
 	}
 
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne
 	@JoinColumn(name = "EMP_ID", nullable = true)
 	public Employee getEmployee() {
 		return employee;

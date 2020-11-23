@@ -7,9 +7,10 @@ import javax.persistence.Id;
 
 @Entity
 public class Depatment {
-	
+
 	private long Id;
 	private String Dname;
+
 	@Id
 	@GeneratedValue
 	@Column(name = "EMP_ID")
@@ -21,7 +22,6 @@ public class Depatment {
 		Id = id;
 	}
 
-	
 	public String getDname() {
 		return Dname;
 	}
@@ -36,4 +36,6 @@ public class Depatment {
 		Dname = dname;
 	}
 
+	public Depatment() {
+	}
 }

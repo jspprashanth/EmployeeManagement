@@ -52,7 +52,7 @@ public class Employee {
 		Name = name;
 	}
 
-	@ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	@ManyToOne(cascade = CascadeType.ALL)
 	public Address getAddress() {
 		return address;
 	}
