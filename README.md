@@ -34,4 +34,11 @@ Active profile
  Use one of the database migration tools in your application to create the DB schema for you.
  
  
+ Entity
+ 
+ 
+ ![db](https://user-images.githubusercontent.com/20247115/99952102-23e50f00-2da5-11eb-9548-892f6536db69.JPG)
+
+ 
+ 
  ![Capture](https://user-images.githubusercontent.com/20247115/99932162-48c58c00-2d7d-11eb-80d7-f7a7285e201b.JPG)
